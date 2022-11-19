@@ -12,7 +12,7 @@ const Header = () => (
         <MenuIcon />
       </IconButton>
       <Typography variant="h6" color="inherit">
-        My Dashboard
+        Cyber Boys Dashboard
       </Typography>
     </Toolbar>
   </AppBar>

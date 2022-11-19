@@ -7,25 +7,79 @@ import DashboardItem from '../components/DashboardItem';
 const DashboardItems = [
   {
     id: 0,
-    name: 'New Chart',
+    name: 'First Three Channels first 10 values',
     vizState: {
       query: {
-        measures: ['Test1.chanone'],
         dimensions: ['Test1.time'],
-        limit: 40000,
+        limit: 10,
+        measures: ['Test1.chanone', 'Test1.chantwo', 'Test1.chanthree'],
+        order: [['Test1.time', 'asc']],
+        filters: [
+          {
+            member: 'Test1.time',
+            operator: 'gte',
+            values: ['6.45'],
+          },
+        ],
+      },
+      chartType: 'table',
+    },
+  },
+  {
+    id: 1,
+    name: 'Channel one (N) vs Time (s)',
+    vizState: {
+      query: {
+        dimensions: ['Test1.time'],
+        limit: 500,
+        measures: ['Test1.chanone'],
+        order: [['Test1.time', 'asc']],
+        filters: [
+          {
+            member: 'Test1.time',
+            operator: 'gte',
+            values: ['6.45'],
+          },
+        ],
+      },
+      chartType: 'area',
+    },
+  },
+  {
+    id: 2,
+    name: 'Channel two (N) vs Time (s)',
+    vizState: {
+      query: {
+        dimensions: ['Test1.time'],
+        limit: 500,
+        filters: [
+          {
+            member: 'Test1.time',
+            operator: 'gte',
+            values: ['6.45'],
+          },
+        ],
+        measures: ['Test1.chantwo'],
         order: [['Test1.time', 'asc']],
       },
       chartType: 'area',
     },
   },
   {
-    id: 1,
+    id: 3,
     name: 'New Chart',
     vizState: {
       query: {
-        measures: ['Test1.chanone'],
         dimensions: ['Test1.time'],
-        limit: 40000,
+        limit: 500,
+        filters: [
+          {
+            member: 'Test1.time',
+            operator: 'gte',
+            values: ['6.45'],
+          },
+        ],
+        measures: ['Test1.chanthree'],
         order: [['Test1.time', 'asc']],
       },
       chartType: 'area',

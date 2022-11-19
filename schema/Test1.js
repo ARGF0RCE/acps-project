@@ -3,7 +3,11 @@ cube(`Test1`, {
   
   preAggregations: {
     // Pre-Aggregations definitions go here
-    // Learn more here: https://cube.dev/docs/caching/pre-aggregations/getting-started  
+    // Learn more here: https://cube.dev/docs/caching/pre-aggregations/getting-started
+    main: {
+      measures: [Test1.count, Test1.chantwo, Test1.chanthree, Test1.chanfour, Test1.chanone, Test1.chansix, Test1.chanfive],
+      dimensions: [Test1.time]
+    } 
   },
   
   joins: {
