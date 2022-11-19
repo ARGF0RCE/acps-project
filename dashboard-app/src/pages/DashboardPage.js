@@ -67,7 +67,7 @@ const DashboardItems = [
   },
   {
     id: 3,
-    name: 'New Chart',
+    name: 'Channel Three (N) vs Time (s)',
     vizState: {
       query: {
         dimensions: ['Test1.time'],
@@ -83,6 +83,26 @@ const DashboardItems = [
         order: [['Test1.time', 'asc']],
       },
       chartType: 'area',
+    },
+  },
+  {
+    id: 4,
+    name: 'Channel One (N) and Channel Two (N) vs Time (s)',
+    vizState: {
+      query: {
+        dimensions: ['Test1.time'],
+        limit: 500,
+        filters: [
+          {
+            member: 'Test1.time',
+            operator: 'gte',
+            values: ['6.45'],
+          },
+        ],
+        measures: ['Test1.chanone', 'Test1.chantwo'],
+        order: [['Test1.time', 'asc']],
+      },
+      chartType: 'line',
     },
   },
 ];
