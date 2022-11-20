@@ -30,6 +30,10 @@ For further information refer to : [Report](https://docs.google.com/document/d/1
 ## How To Run
 ---
 
+### Prerequisites
+
+* [`npm`](https://nodejs.org/en/)
+
 ### Running Cube JS server
 
 1. In project directory, run: `npm run dev`
