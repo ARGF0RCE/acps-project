@@ -35,9 +35,9 @@ For further information refer to : [Report](https://docs.google.com/document/d/1
 * [`npm`](https://nodejs.org/en/)
 
 ### Running Cube JS server
-
-1. In project directory, run: `npm run dev`
-2. Open your favourite web browser and run [`https://localhost:4000`](https://localhost:4000)
+1. In project direcotry, run: `npm install`
+2. In project directory, run: `npm run dev`
+3. Open your favourite web browser and run [`https://localhost:4000`](https://localhost:4000)
 
 
 ### Running [`dashboard-app`](dashboard-app) independently
