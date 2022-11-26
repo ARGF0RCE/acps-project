@@ -25,7 +25,7 @@ The resources used in this project are
 
 ## How It Works!
 ---
-For further information refer to : [Report](https://docs.google.com/document/d/1gojMyY2NiItBbdsDYZCy39KZiU0soNk6XNYsmpf-aP8/edit?usp=sharing) (**Still in progress!**)
+For further information refer to : [Report](https://docs.google.com/document/d/1W_Wp3WwYdY7fP8rEiBMhbEUUQKYygsix/edit?usp=sharing&ouid=103202650934195563425&rtpof=true&sd=true) (**Still in progress!**)
 
 ## How To Run
 ---
