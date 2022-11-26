@@ -3,7 +3,7 @@
 ## DESCRIPTION
 ---
 
-This project revolves anround the use of a piezo electric dynamometer on a conventional lathe machine to aggregate the values of different forces generated during the turning operation(orthogonal cutting) of a workpiece of mild steel under room temperature.
+This project revolves around the use of a piezo electric dynamometer on a conventional lathe machine to aggregate the values of different forces generated during the turning operation(orthogonal cutting) of a workpiece of mild steel under room temperature.
 
 The forces measured by the dynamometer are:
 * Cutting Force
